@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="ProjetSlamFichier.css" />
+<title>Projet Slam n°1</title>
+</head>
+<body>
+	<img class="ssbuLogo2" src="images/SmashBall.png">
+	<br><br><br><br><br>
+	<div class="ssbu">
+		<strong> <h1>Super smash bros</h1> </strong>
+		<strong> <h1>ultimate</h1> </strong>
+		<div class="ssbuLogo">
+			<img class="ssbuLogo" src="images/Super_Smash_Bros_Ultimate.jpg">
+		</div>
+	</div>
+	<hr><br>
+
+	<div class="TutoSsbu">
+		<h2>Comment jouer ?</h2>
+	</div>
+		<table class="tableauTuto" border="2">
+			<tr>
+				<td class="Tuto">Mouvement</td>
+				<td class="Tuto">Attaque rapide</td>
+				<td class="tuto">Attaque spéciale</td>
+				<td class="Tuto">Sauts</td>
+				<td class="Tuto">Shield/Bouclier</td>
+				<td class="Tuto">Grab/saisie</td>
+			</tr>
+			<tr>
+				<td><img class="imgGc" src="images/GcStick.png"></td>
+				<td><img class="imgGc" src="images/GcAbutton.png"></td>
+				<td><img class="imgGc" src="images/GcBbutton.png"></td>
+				<td><img class="imgGc" src="images/GcXbutton.png"></td>
+				<td><img class="imgGc" src="images/GcRbutton.png"></td>
+				<td><img class="imgGc" src="images/GcLbutton.png"></td>
+			</tr>
+			<tr>
+				<td class="Tuto">Attaque Smash</td>
+			</tr>
+			<tr>
+				<td><img src="images/Smash attack.png"></td>
+			</tr>
+		</table>
+	<br><br>
+
+    <div class="HowToPlay">
+    	<h2>Vidéo de démonstration</h2>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/ynu7XKWSQu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br><br>
+
+    <div class="FighterPass2">
+    	<h2 class="TextePass1">Fighter Pass N°2</h2>
+    	<h3 class="TextePass2">Le Fighter pass Ssbu est pack de DLC regroupant</h3> 
+    	<h3 class="TextePass2">de nouveaux combattant venue soit de licence</h3> 
+    	<h3 class="TextePass2">déja présent ou nouvelle au jeu</h3>
+    	<br><br>
+    	<img class="FighterPass2" src="images/Fighter pass 2.png">
+    </div>
+    <br><br>
+
+    <p>avez vous deja joué a un jeu de combat</p>
+
+    <div>
+    	<input type="checkbox" id="Oui" name="Oui" onclick="checkMe()">
+    	<label for="Oui">Oui</label>
+    </div>
+
+    <div>
+    	<input type="checkbox" id="Non" name="Non" onclick="checkMe()">
+    	<label for="Non">Non</label>
+    </div>
+
+    <p>préférer vous des personnages plus maniable ou plus technique</p>
+
+    <div>
+    	<input type="checkbox" id="Maniable" name="Maniable" onclick="checkMe()">
+    	<label for="Maniable">Maniable</label>
+    </div>
+
+    <div>
+    	<input type="checkbox" id="Technique" name="Technique" onclick="checkMe()">
+    	<label for="Technique">Technique</label>
+    </div>
+
+    <p>Préférez-vous les personnages qui combattent à court distance à moyenne distance ou longue distance</p>
+
+    <div>
+    	<input type="checkbox" id="Court distance" name="Court distance" onclick="checkMe()">
+    	<label for="Court distance">Court distance</label>
+    </div>
+
+    <div>
+    	<input type="checkbox" id="Moyenne distance" name="Moyenne distance" onclick="checkMe()">
+    	<label for="Moyenne distance">Moyenne distance</label>
+    </div>
+
+    <div>
+    	<input type="checkbox" id="Longue distance" id="Longue distance" name="Longue distance" onclick="checkMe()">
+    	<label for="Longue distance">Longue distance</label>
+    </div>
+
+    <script type="text/javascript">
+    	function checkMe(){
+    		var ab = document.getElementById("Oui");
+    		var bc = document.getElementById("Non");
+    		var de = document.getElementById("Maniable");
+    		var fg = document.getElementById("Technique");
+    		var hi = document.getElementById("Court distance");
+    		var jk = document.getElementById("Moyenne distance");
+    		var lm = document.getElementById("Longue distance");
+    		var text = document.getElementById("Min");
+    		if (bc.checked==true && fg.checked==true && lm.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    		var text = document.getElementById("Stev");
+    		if (bc.checked==true && fg.checked==true && hi.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    		var text = document.getElementById("Sephi");
+    		if (bc.checked==true && de.checked==true && lm.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    		var text = document.getElementById("PyMy");
+    		if (bc.checked==true && de.checked==true && jk.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    		var text = document.getElementById("Kazu");
+    		if (ab.checked==true && fg.checked==true && hi.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    		var text = document.getElementById("So");
+    		if (bc.checked==true && de.checked==true && jk.checked==true){
+    			text.style.display="block"
+    		}else{
+    			text.style.display="none"
+    		}
+    	}
+    </script>
+
+    <p id="Min" style="display: none;"><a href="MinMin.html">MinMin</p>
+    <p id="Stev" style="display: none;"><a href="Steve.html">Steve</a></p>
+    <p id="Sephi" style="display: none;"><a href="Sephiroth.html">Sephiroth</a></p>
+    <p id="PyMy" style="display: none;"><a href="PyraMythra.html">PyraMythra</a></p>
+    <p id="Kazu" style="display: none;"><a href="Kazuya.html">Kazuya</a></p>
+    <p id="So" style="display: none;"><a href="Sora.html">Sora</a></p>	
+
+    <p class="SsbuOfficiel">Le site officiel<a href="https://www.smashbros.com/fr_FR/">Super Smash Bros Ultimate</a></p>
+</body>

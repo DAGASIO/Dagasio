@@ -1,0 +1,135 @@
+body{
+	color: white;
+	font-family: "Calibri";
+	background: linear-gradient(red, black);
+}
+
+.ssbu{
+	text-align: center;
+	font-family: Clab;
+	text-decoration: underline;
+	font-size: 20px;
+	color: darkorange;
+}
+
+.ssbuLogo{
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ssbuLogo2{
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.imgGc{
+	width: 50px;
+	height: 50px;
+}
+
+Table{
+	border-width: medium thin;
+}
+
+.TutoSsbu{
+	color: darkorange;
+	font-size: 17px;
+}
+
+td{
+	text-align: center;
+}
+
+.HowToPlay{
+	color: darkorange;
+	text-align: center;
+}
+
+.FighterPass2{
+	text-align: center;
+}
+
+.TextePass1{
+	color: darkorange;
+}
+
+.TexteMin{
+	color: darkorange;
+}
+
+.imgMinMin{
+	width: 300px;
+	height: 300px;
+}
+
+.MinMinTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.TexteSteve{
+	color: darkorange;
+}
+
+.SteveTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.TexteSephi{
+	color: darkorange;
+}
+
+.imgSephiroth{
+	width: 300px;
+	height: 300px;
+}
+
+.SephiTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.TextePM{
+	color: darkorange;
+}
+
+.PMTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.TexteKazuya{
+	color: darkorange;
+}
+
+.imgKazuya{
+	width: 300px;
+	height: 300px;
+}
+
+.KazuyaTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.TexteSora{
+	color: darkorange;
+}
+
+.imgSora{
+	width: 300px;
+	height: 300px;
+}
+
+.SoraTrailer{
+	color: darkorange;
+	text-align: center;
+}
+
+.SsbuOfficiel{
+	text-align: center;
+}
